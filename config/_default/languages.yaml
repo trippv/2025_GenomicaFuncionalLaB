@@ -1,0 +1,42 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+es:
+  languageCode: es
+  contentDir: content/es
+  title: Genómica Funcional
+  params:
+    description: Sitio del Laboratorio de Genómica Funcional de CICESE
+  menu:
+    main:
+      - name: Acerca
+        url: '#intro'
+        weight: 1
+      - name: Equipo de Trabajo
+        url: '#people'
+        weight: 20
+      - name: Proyectos
+        url: '#projects'
+        weight: 40
+      - name: Publicaciones
+        url: '#publications'
+        weight: 50
+      - name: Cursos
+        url: cursos/
+        weight: 60
+      # - name: Blog
+      #   url: post/
+      #   weight: 70
+      - name: Ir al sitio de CICESE
+        url: https://www.cicese.edu.mx/
+        weigth: 80
+
+
